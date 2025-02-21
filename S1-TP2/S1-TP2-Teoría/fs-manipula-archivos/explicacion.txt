@@ -1,0 +1,19 @@
+Método fs.writeFileSync() de Node.js
+
+El método fs.writeFileSync() es un método sincrónico. Crea un nuevo archivo si el archivo especificado no existe. Además, 
+el módulo 'readline-sync' se utiliza para habilitar la entrada del usuario en tiempo de ejecución.
+
+Función fs.writeFileSync() de Node.js
+El módulo 'fs' de Node.js implementa la operación de E/S de archivos. Los métodos del módulo fs pueden ser sincrónicos y 
+asincrónicos. La función asincrónica tiene una función de devolución de llamada como último parámetro que indica la 
+finalización de la función asincrónica. Los desarrolladores de Node.js prefieren los métodos asincrónicos a los métodos 
+sincrónicos, ya que los métodos asincrónicos nunca bloquean un programa durante su ejecución, mientras que los últimos sí 
+lo hacen. 
+
+Sintaxis:
+fs.writeFileSync( archivo, datos, opciones )
+Enlace de consulta
+https://www.geeksforgeeks.org/node-js-fs-writefilesync-method/
+
+
+
